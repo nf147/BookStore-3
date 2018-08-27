@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="常用Jar包">
+    <CLASSES>
+      <root url="jar://D:/library/sitemesh-2.4.2.jar!/" />
+      <root url="jar://D:/library/jstl-1.2.jar!/" />
+      <root url="jar://D:/library/gson-2.8.5.jar!/" />
+      <root url="jar://D:/library/sqlite-jdbc-3.23.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

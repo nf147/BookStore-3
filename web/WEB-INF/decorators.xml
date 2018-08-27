@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<decorators defaultdir="/WEB-INF/layout/">
+    <!-- 先定义不过滤的页面，即排除页面 -->
+    <excludes>
+        <pattern>/assets/*</pattern>
+    </excludes>
+
+    <!-- 定义需要修饰的页面 -->
+    <decorator name="book" page="book_tpl.jsp">
+        <pattern>/book/*</pattern>
+        <pattern>/ws/*</pattern>
+    </decorator>
+
+    <decorator name="cart" page="cart_tpl.jsp">
+        <pattern>/cart/*</pattern>
+    </decorator>
+
+</decorators>
